@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    background-color: #f2f2f2;
+}
+.container{
+    padding: 50px;
+    
+}
+.header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+    .food-container
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card{
+    width: 220px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.card img{
+    width: 100px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.contact input{
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 250px;
+}
+
+.send{
+    background-color: yellowgreen;
+    border: none;
+    padding: 10px 40px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
